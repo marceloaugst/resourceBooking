@@ -27,6 +27,7 @@ Este é um sistema de gerenciamento de reservas de recursos, como salas de reuni
 ## Instale as dependências do backend:
 cd backend
 npm install
+node src/server.js
 
 ## Inicie o servidor:
 npm start
