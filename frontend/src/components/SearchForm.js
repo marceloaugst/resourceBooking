@@ -11,6 +11,7 @@ const SearchReservation = () => {
   const [reservations, setReservations] = useState([]); // Armazenar reservas localmente no estado
 
   // Função para formatar a data para o formato 'YYYY-MM-DDTHH:mm'
+  // eslint-disable-next-line no-unused-vars
   const formatDate = (date) => {
     if (!date) return '';
     const d = new Date(date);
