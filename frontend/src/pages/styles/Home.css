@@ -1,0 +1,60 @@
+/* Estilo da página principal */
+.home {
+  max-width: 800px;
+  margin: 0 auto; /* Centraliza a página horizontalmente */
+  padding: 20px;
+  font-family: 'Arial', sans-serif;
+  color: #333;
+  text-align: center; /* Centraliza o texto */
+}
+
+.home h2 {
+  font-size: 2rem;
+  margin-bottom: 20px;
+  color: #4caf50;
+}
+
+/* Lista de reservas */
+.list {
+  list-style: none;
+  padding: 0;
+  margin: 0 auto; /* Centraliza a lista */
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.list li {
+  padding: 15px;
+  border-bottom: 1px solid #eaeaea;
+  background-color: #f9f9f9;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Espaçamento entre os elementos */
+}
+
+.list li:last-child {
+  border-bottom: none;
+}
+
+.list li:hover {
+  background-color: #f1f1f1;
+}
+
+/* Botão de cancelar */
+.cancel-button {
+  background-color: #e74c3c;
+  color: white;
+  border: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  margin-top: 10px; /* Descola o botão dos outros elementos */
+  margin-left: auto; /* Empurra o botão para a direita */
+  align-self: flex-end; /* Alinha o botão ao lado direito do item */
+}
+
+.cancel-button:hover {
+  background-color: #c0392b;
+}
